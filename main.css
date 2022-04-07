@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header*/
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-container figure{
+display: inline-block;
+align-items: center;
+}
+
+.header-container .location{
+    color: #A9A9A9;
+}
+
+.header-container .stats-container{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.stats-container .stat{
+    width: 90px;
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 10%;
+}
+
+.stat .number{
+    color: black;
+}
+.stat p{
+    color: #A9A9A9;
+}
+header section figure img{
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    box-shadow:  5px 5px 5px #ffff,
+    -5px -5px 15px #000;
+}
+
+
+
+/* MAIN*/
+main{
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+}
+
+.img-container{
+    width: 450px;
+    height: 600px;
+    max-width: 900px;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+   
+}
+main .img-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.img-container .img1{
+    border-radius: 16px;
+   width: 150px;
+   height: 200px;
+   grid-column-start: 1;
+   grid-column-end: 2;
+   box-shadow:  5px 5px 5px #000,
+             -10px -10px 15px #ffffff;
+
+}
+.img-container .img2{
+    margin-left: 15px;
+    border-radius: 16px;
+    height: 200px;
+    width: 310px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    box-shadow:  5px 5px 5px #000,
+    -10px -10px 15px #ffffff;
+}
+.img-container .img3{
+    border-radius: 16px;
+    height: 200px;
+    width: 300px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow:  5px 5px 5px #000,
+    -10px -10px 15px #ffffff;
+}
+
+.img-container .img4{
+    margin-top: 8px;
+    border-radius: 16px;
+    height: 400px;
+    width: 180px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    box-shadow:  5px 5px 5px #000,
+    -10px -10px 15px #ffffff;
+}
+.img-container .img5{
+    border-radius: 16px;
+    height: 200px;
+    width: 150px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    box-shadow:  5px 5px 5px #000,
+    -10px -10px 15px #ffffff;
+}
+
+.img-container .img6{
+    border-radius: 16px;
+    height: 200px;
+    width: 150px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-shadow:  5px 5px 5px #000,
+    -10px -10px 15px #ffffff;
+}
+
